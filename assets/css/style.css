@@ -22,7 +22,10 @@ body {
 header {
     background-color: rgb(165, 42, 42);
 }
-h1 {font-family: 'Playpen Sans', cursive;}
+
+h1 {
+    font-family: 'Playpen Sans', cursive;
+}
 
 /* Main content */
 main {
