@@ -1,6 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Playpen+Sans&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -23,6 +22,7 @@ body {
 header {
     background-color: rgb(165, 42, 42);
 }
+h1 {font-family: 'Playpen Sans', cursive;}
 
 /* Main content */
 main {
