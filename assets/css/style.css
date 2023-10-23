@@ -28,8 +28,10 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
-header a {text-decoration: none;
-color: inherit;}
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
 h1 {
     font-family: 'Playpen Sans', cursive;
@@ -38,16 +40,30 @@ h1 {
     color: #252525;
 }
 
-#menu { font-size: 110%;
-letter-spacing: 4px;
-list-style-type: none;}
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
-.active {border-bottom: 1px solid #3a3a3a;
-    }
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+nav  {
+     position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+}
 
 /* Main content */
 main {
