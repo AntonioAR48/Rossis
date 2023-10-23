@@ -77,6 +77,11 @@ nav {
         display: none;
     }
 
+    .nav-toggle-label {
+        font-size: 2rem;
+    }
+
+
 /* Main content */
 main {
     background-color: rgb(42, 61, 165);
