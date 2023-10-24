@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Playpen+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -73,13 +73,14 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
 }
-#nav-toggle {
-        display: none;
-    }
 
-    .nav-toggle-label {
-        font-size: 2rem;
-    }
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 
 /* Main content */
@@ -91,12 +92,23 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: rgb(54, 165, 42);
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+
+#social-networks i {
+    font-size: 200%;
+    padding: 5%;
+    color: #3a3a3a;
+    }
 
 /* Media query: tablets and larger (768x and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -104,30 +116,35 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        }
-        #menu {
-            display: flex;
-            }
-            #menu > li {
-                padding-left: 1rem;
-                }
-                .nav-toggle-label {
-                    display: none;
-                    }
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
     #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
-        }
-
-        /* Main content, pushing it down to commodate larger header */
-        main {
-            margin-top: 79px;
-            }
     }
-        /* Larger devices (Laptops and desktops 992px and up) */
-        @media screen and (min-width: 992px) {
-            #menu a:hover{
-                border-bottom: 1px solid #3a3a3a;
-            }
-        }
+
+    /* Main content, pushing it down to commodate larger header */
+    main {
+        margin-top: 79px;
+    }
+}
+
+/* Larger devices (Laptops and desktops 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
