@@ -40,7 +40,33 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <section id="reservations">
+        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+        <h2>Reservations</h2>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" class="text-input" required>
+        <br>
+        <label for="email_address">Email Address:</label>
+        <input type="email" name="email_address" id="email_address" class="text-input" required>
+        <br>
+        <label for="phone_number">Phone number:</label>
+        <input type="tel" name="phone_number" id="phone_number" class="number-input" required>
+        <br>
+        <label for="date">Reservation date:</label>
+        <input type="date" name="date" id="date" class="date" required>
+        <br>
+        <label for="time">Reservation time:</label>
+        <input type="time" name="time" id="time" class="time" required>
+        <br>
+        <label for="people">Number of people:</label>
+        <input type="number" name="people" id="people" class="number" min="1" max="15"required>
+        <br>
+        <button type="submit" class="submit">Let's eat!...Soon</button>
+        </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
