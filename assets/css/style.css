@@ -114,6 +114,32 @@ main {
         color: #ffffff;
         }
 
+/* Who we are */
+#who {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#who h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+#story > div {
+     line-height: 20px;
+     margin-bottom: 20px;
+    }
+
+        #story p {
+            padding: 0 20px;
+        }
+    
+        #story hr {
+            border-top: 1px solid #3a3a3a;
+            margin: 5px 0;
+        }
+
+
 /* Footer */
 #social-networks {
     text-align: center;
