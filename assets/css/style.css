@@ -141,6 +141,13 @@ main {
             border-top: 1px solid #3a3a3a;
             margin: 5px 0;
         }
+        .story iframeiframe {
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            position: absolute;
+        }
 
                 /* Form */
                 #reservations {
@@ -174,7 +181,7 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #ee7621;
+    background-color: #ff0000;
     color: #fafafa;
 }
 /* Menu page */
