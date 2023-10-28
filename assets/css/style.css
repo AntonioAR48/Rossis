@@ -34,7 +34,6 @@ h3 {
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position: absolute;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -200,13 +199,14 @@ main {
 
 /* Menu page */
 .container {
+    width: 100%;
     margin: 0 auto;
     padding: 1.5em;
 }
 
 .menu {
     font-family: 'Playpen Sans', cursive;
-    font-size: 14px;
+    font-size: 100%;
 }
 
 .menu-group-heading {
