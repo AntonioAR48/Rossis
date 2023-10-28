@@ -9,16 +9,21 @@
 }
 
 /* General styles */
+html,
 body {
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Playpen Sans', cursive;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -89,8 +94,8 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
     /* Enable flex properties for child elements */
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -99,7 +104,7 @@ main {
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
-    }
+}
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
@@ -111,11 +116,13 @@ main {
     min-height: 200px;
     padding-top: 10px;
     padding-left: 10px;
-    }
+}
 
-    #cover-text > h2, #cover-text > h3, #cover-text>h4 {
-        color: #ffffff;
-        }
+#cover-text>h2,
+#cover-text>h3,
+#cover-text>h4 {
+    color: #ffffff;
+}
 
 /* Who we are */
 #who {
@@ -128,44 +135,49 @@ main {
     text-align: center;
     font-size: 280%;
 }
-#story > div {
-     line-height: 20px;
-     margin-bottom: 20px;
-    }
 
-        #story p {
-            padding: 0 20px;
-        }
-    
-        #story hr {
-            border-top: 1px solid #3a3a3a;
-            margin: 5px 0;
-        }
-        .story iframeiframe {
-            height: 100%;
-            width: 100%;
-            left: 0;
-            top: 0;
-            position: absolute;
-        }
+#story>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
 
-                /* Form */
-                #reservations {
-                    background-image: url("../images/reservations.webp");
-                    background-size: cover;
-                    background-position: 75%;
-                    padding: 20px 10% 0 10%;
-                    flex-grow: 1;
-                }
-                                #signup-form {
-                                    color: #ffffff;
-                                    background-color: rgba(60, 60, 60, 0.6);
-                                    padding: 30px;
-                                }
-                #signup-form>h2 {
-                    color: #fafafa;
-                    margin-bottom: 20px;
-                }
+#story p {
+    padding: 0 20px;
+}
+
+#story hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+.story iframeiframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+/* Form */
+#reservations {
+    background-image: url("../images/reservations.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
 .text-input {
     background: transparent;
     color: #fb0000;
@@ -176,7 +188,8 @@ main {
     border-radius: 2px;
     padding: 0 5px;
 }
-                .submit {
+
+.submit {
     margin-top: 20px;
     border-radius: 50px;
     padding: 15px 32px;
@@ -184,6 +197,7 @@ main {
     background-color: #ff0000;
     color: #000000;
 }
+
 /* Menu page */
 .container {
     max-width: 1200px;
@@ -252,7 +266,7 @@ main {
     font-size: 200%;
     padding: 5%;
     color: #3a3a3a;
-    }
+}
 
 /* Media query: tablets and larger (768x and up) */
 @media screen and (min-width: 768px) {
@@ -288,11 +302,12 @@ main {
     main {
         margin-top: 79px;
     }
+
     /* Hero */
     #cover-text {
         width: 400px;
         right: 50px;
-        }
+    }
 }
 
 
@@ -310,6 +325,7 @@ main {
         height: 125px;
     }
 }
+
 /* Larger devices (Laptops and desktops 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
